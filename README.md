@@ -7,16 +7,16 @@ The inspirational .gitignore boilerplate
 Files and directories that Git should ignore.
 ```
 # Editor directory
-/.idea
+**/.idea
 
 # Ignore NPM 'node_modules' directory
-/node_modules
+**/node_modules
 
 # Ignore Composer 'vendor' directory
-/vendor
+**/vendor
 
 # Ignore logs
-/log
+**/log
 
 # Other files (e.g. credentials)
 # ...
