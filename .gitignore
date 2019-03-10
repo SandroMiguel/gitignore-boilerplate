@@ -1,0 +1,14 @@
+# Editor directory
+/.idea
+
+# Ignore NPM 'node_modules' directory
+/node_modules
+
+# Ignore Composer 'vendor' directory
+/vendor
+
+# Ignore logs
+/log
+
+# Other files (e.g. credentials)
+# ...
