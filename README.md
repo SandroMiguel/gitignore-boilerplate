@@ -17,6 +17,7 @@ Files and directories that Git should ignore.
 
 # Ignore logs
 **/log
+yarn-error.log*
 
 # Other files (e.g. credentials)
 # ...

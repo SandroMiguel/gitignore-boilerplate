@@ -9,6 +9,7 @@
 
 # Ignore logs
 **/log
+yarn-error.log*
 
 # Other files (e.g. credentials)
 # ...
