@@ -1,10 +1,10 @@
 # **.gitignore** boilerplate
 
-The inspirational .gitignore boilerplate for a general web project
+The inspirational .gitignore boilerplate
 
 [![license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 
-Files and directories that Git should ignore.
+Files and directories that Git should ignore (for a general web project)
 ```
 ## Editor directory
 **/.idea
