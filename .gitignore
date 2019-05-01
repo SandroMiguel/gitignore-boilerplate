@@ -1,15 +1,20 @@
-# Editor directory
-**/.idea
+## Editor directory
+#**/.idea
 
-# Ignore NPM 'node_modules' directory
+## Ignore NPM 'node_modules' directory
 **/node_modules
 
-# Ignore Composer 'vendor' directory
+## Ignore Composer 'vendor' directory
 **/vendor
 
-# Ignore logs
+## Ignore log files
 **/log
 yarn-error.log*
 
-# Other files (e.g. credentials)
-# ...
+## Ignore generated source maps
+*.map
+
+## Other files to ignore (e.g. credentials)
+#.env
+#**/storage
+#**/.others
