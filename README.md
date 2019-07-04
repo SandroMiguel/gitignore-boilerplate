@@ -24,6 +24,7 @@ yarn-error.log*
 
 ## Other files to ignore (e.g. credentials)
 .env
+**/*.bak
 **/storage
 **/.others
 ```
