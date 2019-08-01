@@ -11,6 +11,7 @@ Download [.gitignore](.gitignore)
 ```
 ## Editor directory
 **/.idea
+**/.vscode
 
 ## Ignore NPM 'node_modules' directory
 **/node_modules
