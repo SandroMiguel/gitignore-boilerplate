@@ -1,5 +1,6 @@
 ## Editor directory
-#**/.idea
+**/.idea
+**/.vscode
 
 ## Ignore NPM 'node_modules' directory
 **/node_modules
