@@ -16,7 +16,8 @@ yarn-error.log*
 *.map
 
 ## Other files to ignore (e.g. credentials)
-#.env
-#**/*.bak
-#**/storage
-#**/.others
+.env
+.npmrc
+**/*.bak
+**/storage
+**/.others
