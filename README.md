@@ -10,7 +10,6 @@ Download [.gitignore](.gitignore)
 
 ```
 ## Editor directory
-**/.idea
 **/.vscode
 
 ## Ignore NPM 'node_modules' directory
@@ -31,7 +30,7 @@ yarn-error.log*
 .npmrc
 **/*.bak
 **/storage
-**/.others
+**/.misc
 ```
 
 ## Contributing
