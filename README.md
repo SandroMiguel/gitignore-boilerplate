@@ -18,19 +18,24 @@ Download [.gitignore](.gitignore)
 ## Ignore Composer 'vendor' directory
 **/vendor
 
-## Ignore log files
-**/log
-yarn-error.log*
-
 ## Ignore generated source maps
 *.map
 
-## Other files to ignore (e.g. credentials)
+## Ignore log files
+yarn-error.log*
+
+## Ignore .env file - secrets inside
 .env
+
+## Ignore NPM configuration file
 .npmrc
+
+## Ignore Miscellaneous
+**/.misc
+
+## Other files/directories to ignore
 **/*.bak
 **/storage
-**/.misc
 ```
 
 ## Contributing
