@@ -24,6 +24,15 @@ Download [.gitignore](.gitignore)
 ## Ignore log files
 yarn-error.log*
 
+## Yarn - Not using Zero-Installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 ## Ignore .env file - secrets inside
 .env
 
