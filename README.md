@@ -18,9 +18,6 @@ Download [.gitignore](.gitignore)
 ## Ignore Composer 'vendor' directory
 **/vendor
 
-## Ignore generated source maps
-*.map
-
 ## Ignore log files
 yarn-error.log*
 
@@ -41,8 +38,6 @@ yarn-error.log*
 
 ## Ignore Miscellaneous
 **/.misc
-
-## Other files/directories to ignore
 **/*.bak
 **/storage
 ```
