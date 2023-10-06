@@ -42,6 +42,49 @@ yarn-error.log*
 **/storage
 ```
 
+## Tips
+
+Here are some tips and tricks for working with `.gitignore` files:
+
+### Negating Rules with `!`
+
+In a `.gitignore` file, you can use the `!` symbol to negate a rule. This means that a file or directory matching the negated rule will be included, even if it matches a previous rule. For example:
+
+```
+# Ignore all .txt files
+*.txt
+
+# Except for specific.txt
+!specific.txt
+```
+
+### Recursive Directory Matching with `**/`
+
+You can use `**/` to match directories recursively. For example:
+
+```
+# Ignore all .log files in any directory
+**/*.log
+```
+
+### Ignoring Entire Directories
+
+To ignore an entire directory and its contents, use a trailing `/` like this:
+
+```
+# Ignore the entire "logs" directory
+logs/
+```
+
+### Using Wildcards `*`
+
+The `*` wildcard can be used to match zero or more characters. For example:
+
+```
+# Ignore all .bak files
+*.bak
+```
+
 ## Contributing
 
 Want to contribute? All contributions are welcome. Read the [contributing guide](CONTRIBUTING.md).
