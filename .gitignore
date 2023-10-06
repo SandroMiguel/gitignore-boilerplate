@@ -25,7 +25,7 @@ yarn-error.log*
 ## Ignore NPM configuration file
 .npmrc
 
-## Ignore Miscellaneous
+## Other files to ignore (e.g. credentials)
 **/.misc
 **/*.bak
 **/storage
