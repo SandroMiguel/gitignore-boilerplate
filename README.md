@@ -9,6 +9,8 @@ Files and directories that Git should ignore (for a general web project)
 Download [.gitignore](.gitignore)
 
 ```
+## .gitignore boilerplate v1.1.0 (2023-10-09) sandromiguel@sandromiguel.com
+
 ## Editor directory
 **/.vscode
 
