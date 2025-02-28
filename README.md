@@ -9,19 +9,34 @@ Files and directories that Git should ignore (for a general web project)
 Download [.gitignore](.gitignore)
 
 ```
-## .gitignore boilerplate v1.1.0 (2023-10-09) sandromiguel@sandromiguel.com
+## .gitignore boilerplate v1.2.0 (2025-02-28) sandromiguel@sandromiguel.com
 
 ## Editor directory
 **/.vscode
 
-## Ignore NPM 'node_modules' directory
+## Ignore Node.js and Composer dependencies
 **/node_modules
-
-## Ignore Composer 'vendor' directory
 **/vendor
 
-## Ignore log files
+## Ignore logs and debug files
+**/logs
+**/log
 yarn-error.log*
+npm-debug.log*
+*.log
+
+## PHPUnit result cache
+.phpunit.result.cache
+
+## Ignore generated files
+*.map
+*.bak
+
+## Ignore environment file (secrets inside)
+.env
+
+## Ignore NPM configuration file
+.npmrc
 
 ## Yarn - Not using Zero-Installs
 .pnp.*
@@ -32,16 +47,9 @@ yarn-error.log*
 !.yarn/sdks
 !.yarn/versions
 
-## Ignore .env file - secrets inside
-.env
-
-## Ignore NPM configuration file
-.npmrc
-
-## Ignore Miscellaneous
-**/.misc
-**/*.bak
+## Ignore storage and miscellaneous files
 **/storage
+**/.misc
 ```
 
 ## Tips
